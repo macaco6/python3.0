@@ -1,14 +1,14 @@
 print("Olá, eu sou uma versão 'crua' da IA do meu mestre MAURICIO!")
 print("Irei fazer algumas perguntas e gostaria que me responde-se. OK?")
 print("APERTE ENTER PARA CONTINUAR!")
-agd = input("")
+espera = input("")
 
 nome = input("Digite seu nome: ")
 peso = input("E seu peso: ")
 
 print("Agora vamos ver sua data de nascimento! OK?")
 
-espera = input("Aperte enter!")
+espera2 = input("Aperte enter!")
 
 dia = input("Dia: ")
 mes = input("Mês: ")
@@ -23,6 +23,9 @@ n2 = n1 - ano
 
 print("Se sua idade for correspondente a {} APERTE ENTER!".format(n2))
 
-espaço3 = input("")
+espera3 = input("")
+
+print(nome.isupper())
+print(peso.isnumeric())
 
 print("PRONTO! SEU CADASTRO FOI CONCLUIDO!")
